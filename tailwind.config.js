@@ -5,7 +5,11 @@ export default {
     fontFamily: {
       sans : ['DM Mono, sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#F35C7A"
+      }
+    },
   },
   plugins: [],
 };

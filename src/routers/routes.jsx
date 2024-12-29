@@ -4,7 +4,7 @@ import authRoute from "./authRoute";
 
 const router = createBrowserRouter([
     ...publicRoute,
-    ...authRoute,
+    
 ])
 
 export default router;
