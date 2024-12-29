@@ -28,7 +28,7 @@ const NavIcons = () => {
         onClick={handleProfile}
       />
       {isProfileOpen && (
-        <div className="absolute bg-white p-4 top-12 left-0 rounded-md shadow-[0px_3px_10px_rgba(0,0,0,0.2)]">
+        <div className="absolute bg-white p-4 top-12 left-0 rounded-md shadow-[0px_3px_10px_rgba(0,0,0,0.2)] z-20">
           <NavLink to="/profile">
             <div>Profile</div>
           </NavLink>
