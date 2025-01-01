@@ -1393,29 +1393,6 @@
   ],
   "carts": [
     {
-      "id": 1,
-      "images": [
-        "/image/man1.webp",
-        "/image/man1.webp"
-      ],
-      "title": "Men's Casual Shirt",
-      "description": "A comfortable and stylish casual shirt for everyday wear.",
-      "actualPrice": 200,
-      "discountPrice": 29,
-      "rating": 4.5,
-      "color": "Blue",
-      "type": "Shirt",
-      "brand": "Buckle Black",
-      "quantity": 5,
-      "size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
-      "category": "Men's Clothing",
-      "stock": 25
-    },
-    {
       "id": 2,
       "images": [
         "/image/man2.webp",
@@ -1460,6 +1437,29 @@
       ],
       "category": "Men's Clothing",
       "stock": 35
+    },
+    {
+      "id": 32,
+      "images": [
+        "/image/woman2.webp",
+        "/image/woman2.webp"
+      ],
+      "title": "Women's Formal Blouse",
+      "description": "An elegant blouse for office wear.",
+      "actualPrice": 50,
+      "discountPrice": 39,
+      "rating": 4.7,
+      "color": "White",
+      "type": "Blouse",
+      "brand": "BKE",
+      "quantity": 1,
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 15
     }
   ]
 }

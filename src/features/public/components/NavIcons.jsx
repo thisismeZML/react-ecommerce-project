@@ -34,10 +34,10 @@ const NavIcons = () => {
       {isProfileOpen && (
         <div className="absolute bg-white p-4 top-12 left-0 rounded-md shadow-[0px_3px_10px_rgba(0,0,0,0.2)] z-20">
           <NavLink to="/profile">
-            <div>Profile</div>
+            <div className="cursor-pointer p-1.5">Profile</div>
           </NavLink>
           <NavLink to="/login">
-            <div className="cursor-pointer mt-2">Logout</div>
+            <div className="cursor-pointer mt-2 p-1.5">Logout</div>
           </NavLink>
         </div>
       )}
