@@ -56,7 +56,7 @@ const FeaturedProducts = () => {
   return (
     <div className="mt-12 flex gap-x-8 gap-y-16 justify-between flex-wrap">
       {featuredProducts.map((product) => (
-        <div className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
+        <div key={product.id} className="w-full flex flex-col gap-4 sm:w-[45%] lg:w-[22%]">
           <Link to={`/shop/${product.id}`} className="w-full h-80 relative flex items-center justify-center">
             <img
               src={product.image[0]}

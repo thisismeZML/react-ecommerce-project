@@ -2,841 +2,1383 @@
   "products": [
     {
       "id": 1,
-      "image": "/image/man1.webp",
+      "images": [
+        "/image/man1.webp",
+        "/image/man1.webp"
+      ],
       "title": "Men's Casual Shirt",
       "description": "A comfortable and stylish casual shirt for everyday wear.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.5,
       "color": "Blue",
       "type": "Shirt",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 25
     },
     {
       "id": 2,
-      "image": "/image/man2.webp",
+      "images": [
+        "/image/man2.webp",
+        "/image/man2.webp"
+      ],
       "title": "Men's Formal Shirt",
       "description": "A sleek and elegant formal shirt for office wear.",
-      "price": 49,
+      "actualPrice": 60,
+      "discountPrice": 49,
       "rating": 4.7,
       "color": "White",
       "type": "Shirt",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 18
     },
     {
       "id": 3,
-      "image": "/image/man3.webp",
+      "images": [
+        "/image/man3.webp",
+        "/image/man3.webp"
+      ],
       "title": "Men's Polo T-Shirt",
       "description": "A classic polo T-shirt for a smart casual look.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.3,
       "color": "Red",
       "type": "T-Shirt",
       "brand": "Reclaim",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 35
     },
     {
       "id": 4,
-      "image": "/image/man4.webp",
+      "images": [
+        "/image/man4.webp",
+        "/image/man4.webp"
+      ],
       "title": "Men's Graphic T-Shirt",
       "description": "A trendy graphic T-shirt with a cool design.",
-      "price": 19,
+      "actualPrice": 25,
+      "discountPrice": 19,
       "rating": 4.6,
       "color": "Black",
       "type": "T-Shirt",
       "brand": "Buck Wear",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 40
     },
     {
       "id": 5,
-      "image": "/image/man5.webp",
+      "images": [
+        "/image/man5.webp",
+        "/image/man5.webp"
+      ],
       "title": "Men's Denim Jacket",
       "description": "A rugged and stylish denim jacket for a casual look.",
-      "price": 69,
+      "actualPrice": 90,
+      "discountPrice": 69,
       "rating": 4.8,
       "color": "Blue",
       "type": "Jacket",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 10
     },
     {
       "id": 6,
-      "image": "/image/man6.webp",
+      "images": [
+        "/image/man6.webp",
+        "/image/man6.webp"
+      ],
       "title": "Men's Leather Jacket",
       "description": "A premium leather jacket for a bold and edgy look.",
-      "price": 149,
+      "actualPrice": 200,
+      "discountPrice": 149,
       "rating": 4.9,
       "color": "Black",
       "type": "Jacket",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 5
     },
     {
       "id": 7,
-      "image": "/image/man7.webp",
+      "images": [
+        "/image/man7.webp",
+        "/image/man7.webp"
+      ],
       "title": "Men's Hoodie",
       "description": "A cozy hoodie for a relaxed and comfortable outfit.",
-      "price": 39,
+      "actualPrice": 50,
+      "discountPrice": 39,
       "rating": 4.7,
       "color": "Gray",
       "type": "Sweatshirt",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 20
     },
     {
       "id": 8,
-      "image": "/image/man8.webp",
+      "images": [
+        "/image/man8.webp",
+        "/image/man8.webp"
+      ],
       "title": "Men's Sweater",
       "description": "A warm and stylish sweater for cold weather.",
-      "price": 34,
+      "actualPrice": 45,
+      "discountPrice": 34,
       "rating": 4.6,
       "color": "Green",
       "type": "Sweater",
       "brand": "Departwest",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 15
     },
     {
       "id": 9,
-      "image": "/image/man9.webp",
+      "images": [
+        "/image/man9.webp",
+        "/image/man9.webp"
+      ],
       "title": "Men's Cargo Pants",
       "description": "Durable and functional cargo pants for an adventurous look.",
-      "price": 44,
+      "actualPrice": 60,
+      "discountPrice": 44,
       "rating": 4.4,
       "color": "Khaki",
       "type": "Pants",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 25
     },
     {
       "id": 10,
-      "image": "/image/man10.webp",
+      "images": [
+        "/image/man10.webp",
+        "/image/man10.webp"
+      ],
       "title": "Men's Chinos",
       "description": "Stylish chinos for a smart casual look.",
-      "price": 39,
+      "actualPrice": 55,
+      "discountPrice": 39,
       "rating": 4.5,
       "color": "Navy",
       "type": "Pants",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 30
     },
     {
       "id": 11,
-      "image": "/image/man11.webp",
+      "images": [
+        "/image/man11.webp",
+        "/image/man11.webp"
+      ],
       "title": "Men's Joggers",
       "description": "Comfortable joggers for a sporty and relaxed look.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.3,
       "color": "Black",
       "type": "Pants",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 45
     },
     {
       "id": 12,
-      "image": "/image/man12.webp",
+      "images": [
+        "/image/man12.webp",
+        "/image/man12.webp"
+      ],
       "title": "Men's Jeans",
       "description": "Classic denim jeans for everyday wear.",
-      "price": 49,
+      "actualPrice": 70,
+      "discountPrice": 49,
       "rating": 4.8,
       "color": "Blue",
       "type": "Pants",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 20
     },
     {
       "id": 13,
-      "image": "/image/man13.webp",
+      "images": [
+        "/image/man13.webp",
+        "/image/man13.webp"
+      ],
       "title": "Men's Shorts",
       "description": "Casual shorts for a comfortable summer outfit.",
-      "price": 24,
+      "actualPrice": 35,
+      "discountPrice": 24,
       "rating": 4.4,
       "color": "Gray",
       "type": "Shorts",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 50
     },
     {
       "id": 14,
-      "image": "/image/man14.webp",
+      "images": [
+        "/image/man14.webp",
+        "/image/man14.webp"
+      ],
       "title": "Men's Swim Trunks",
       "description": "Stylish swim trunks for beach and pool wear.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.7,
       "color": "Blue",
       "type": "Shorts",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 30
     },
     {
       "id": 15,
-      "image": "/image/man15.webp",
+      "images": [
+        "/image/man15.webp",
+        "/image/man15.webp"
+      ],
       "title": "Men's Blazer",
       "description": "A sharp and elegant blazer for formal occasions.",
-      "price": 99,
+      "actualPrice": 120,
+      "discountPrice": 99,
       "rating": 4.9,
       "color": "Black",
       "type": "Blazer",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 15
     },
     {
       "id": 16,
-      "image": "/image/man16.webp",
+      "images": [
+        "/image/man16.webp",
+        "/image/man16.webp"
+      ],
       "title": "Men's Suit",
       "description": "A complete suit set for a professional and polished look.",
-      "price": 199,
+      "actualPrice": 250,
+      "discountPrice": 199,
       "rating": 4.8,
       "color": "Navy",
       "type": "Suit",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 10
     },
     {
       "id": 17,
-      "image": "/image/man17.webp",
+      "images": [
+        "/image/man17.webp",
+        "/image/man17.webp"
+      ],
       "title": "Men's Tank Top",
       "description": "A cool and comfortable tank top for hot weather.",
-      "price": 14,
+      "actualPrice": 20,
+      "discountPrice": 14,
       "rating": 4.3,
       "color": "White",
       "type": "Top",
       "brand": "Affliction",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 40
     },
     {
       "id": 18,
-      "image": "/image/man18.webp",
+      "images": [
+        "/image/man18.webp",
+        "/image/man18.webp"
+      ],
       "title": "Men's V-Neck T-Shirt",
       "description": "A stylish V-neck T-shirt for a casual look.",
-      "price": 19,
+      "actualPrice": 25,
+      "discountPrice": 19,
       "rating": 4.4,
       "color": "Gray",
       "type": "T-Shirt",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 50
     },
     {
       "id": 19,
-      "image": "/image/man19.webp",
+      "images": [
+        "/image/man19.webp",
+        "/image/man19.webp"
+      ],
       "title": "Men's Henley Shirt",
       "description": "A versatile Henley shirt for a casual or smart casual look.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.5,
       "color": "Blue",
       "type": "Shirt",
       "brand": "Affliction",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 35
     },
     {
       "id": 20,
-      "image": "/image/man20.webp",
+      "images": [
+        "/image/man20.webp",
+        "/image/man20.webp"
+      ],
       "title": "Men's Flannel Shirt",
       "description": "A warm and cozy flannel shirt for cooler weather.",
-      "price": 34,
+      "actualPrice": 45,
+      "discountPrice": 34,
       "rating": 4.7,
       "color": "Red",
       "type": "Shirt",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 25
     },
     {
       "id": 21,
-      "image": "/image/man21.webp",
+      "images": [
+        "/image/man21.webp",
+        "/image/man21.webp"
+      ],
       "title": "Men's Bomber Jacket",
       "description": "A stylish bomber jacket for a cool and casual look.",
-      "price": 79,
+      "actualPrice": 100,
+      "discountPrice": 79,
       "rating": 4.6,
       "color": "Green",
       "type": "Jacket",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 20
     },
     {
       "id": 22,
-      "image": "/image/man22.webp",
+      "images": [
+        "/image/man22.webp",
+        "/image/man22.webp"
+      ],
       "title": "Men's Windbreaker",
       "description": "A lightweight windbreaker for outdoor activities.",
-      "price": 49,
+      "actualPrice": 60,
+      "discountPrice": 49,
       "rating": 4.4,
       "color": "Yellow",
       "type": "Jacket",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 30
     },
     {
       "id": 23,
-      "image": "/image/man23.webp",
+      "images": [
+        "/image/man23.webp",
+        "/image/man23.webp"
+      ],
       "title": "Men's Vest",
       "description": "A versatile vest for layering over shirts and sweaters.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.5,
       "color": "Black",
       "type": "Vest",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 15
     },
     {
       "id": 24,
-      "image": "/image/man24.webp",
+      "images": [
+        "/image/man24.webp",
+        "/image/man24.webp"
+      ],
       "title": "Men's Cardigan",
       "description": "A cozy cardigan for a stylish and comfortable look.",
-      "price": 39,
+      "actualPrice": 50,
+      "discountPrice": 39,
       "rating": 4.7,
       "color": "Brown",
       "type": "Sweater",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 18
     },
     {
       "id": 25,
-      "image": "/image/man25.webp",
+      "images": [
+        "/image/man25.webp",
+        "/image/man25.webp"
+      ],
       "title": "Men's Trench Coat",
       "description": "A classic trench coat for a sophisticated look.",
-      "price": 129,
+      "actualPrice": 150,
+      "discountPrice": 129,
       "rating": 4.8,
       "color": "Beige",
       "type": "Coat",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 10
     },
     {
       "id": 26,
-      "image": "/image/man26.webp",
+      "images": [
+        "/image/man26.webp",
+        "/image/man26.webp"
+      ],
       "title": "Men's Peacoat",
       "description": "A warm and stylish peacoat for winter wear.",
-      "price": 119,
+      "actualPrice": 140,
+      "discountPrice": 119,
       "rating": 4.9,
       "color": "Navy",
       "type": "Coat",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 12
     },
     {
       "id": 27,
-      "image": "/image/man27.webp",
+      "images": [
+        "/image/man27.webp",
+        "/image/man27.webp"
+      ],
       "title": "Men's Overcoat",
       "description": "A long overcoat for a sophisticated and polished look.",
-      "price": 149,
+      "actualPrice": 180,
+      "discountPrice": 149,
       "rating": 4.8,
       "color": "Gray",
       "type": "Coat",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 8
     },
     {
       "id": 28,
-      "image": "/image/man28.webp",
+      "images": [
+        "/image/man28.webp",
+        "/image/man28.webp"
+      ],
       "title": "Men's Tracksuit",
       "description": "A complete tracksuit for a sporty and comfortable outfit.",
-      "price": 59,
+      "actualPrice": 70,
+      "discountPrice": 59,
       "rating": 4.5,
       "color": "Black",
       "type": "Tracksuit",
       "brand": "Reclaim",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 25
     },
     {
       "id": 29,
-      "image": "/image/man29.webp",
+      "images": [
+        "/image/man29.webp",
+        "/image/man29.webp"
+      ],
       "title": "Men's Hoodie and Sweatpants Set",
       "description": "A matching hoodie and sweatpants set for a cozy look.",
-      "price": 49,
+      "actualPrice": 60,
+      "discountPrice": 49,
       "rating": 4.6,
       "color": "Gray",
       "type": "Sweatshirt",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 20
     },
     {
       "id": 30,
-      "image": "/image/man30.webp",
+      "images": [
+        "/image/man30.webp",
+        "/image/man30.webp"
+      ],
       "title": "Men's Board Shorts",
       "description": "Comfortable board shorts for beach and surf wear.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.7,
       "color": "Blue",
       "type": "Shorts",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Men's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 30
     },
     {
       "id": 31,
-      "image": "/image/woman1.webp",
+      "images": [
+        "/image/woman1.webp",
+        "/image/woman1.webp"
+      ],
       "title": "Women's Casual Top",
       "description": "A stylish casual top for everyday wear.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.5,
       "color": "Blue",
       "type": "Top",
       "brand": "Buckle Black",
-      "quantity": 1
+      "quantity": 1,
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 20
     },
     {
       "id": 32,
-      "image": "/image/woman2.webp",
+      "images": [
+        "/image/woman2.webp",
+        "/image/woman2.webp"
+      ],
       "title": "Women's Formal Blouse",
       "description": "An elegant blouse for office wear.",
-      "price": 39,
+      "actualPrice": 50,
+      "discountPrice": 39,
       "rating": 4.7,
       "color": "White",
       "type": "Blouse",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 15
     },
     {
       "id": 33,
-      "image": "/image/woman3.webp",
+      "images": [
+        "/image/woman3.webp",
+        "/image/woman3.webp"
+      ],
       "title": "Women's Tank Top",
       "description": "A comfortable tank top for a casual look.",
-      "price": 19,
+      "actualPrice": 25,
+      "discountPrice": 19,
       "rating": 4.3,
       "color": "Red",
       "type": "Tank Top",
       "brand": "Reclaim",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 25
     },
     {
       "id": 34,
-      "image": "/image/woman4.webp",
+      "images": [
+        "/image/woman4.webp",
+        "/image/woman4.webp"
+      ],
       "title": "Women's Graphic Tee",
       "description": "A trendy graphic tee with a unique design.",
-      "price": 14,
+      "actualPrice": 20,
+      "discountPrice": 14,
       "rating": 4.6,
       "color": "Black",
       "type": "T-Shirt",
       "brand": "Buck Wear",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 30
     },
     {
       "id": 35,
-      "image": "/image/woman5.webp",
+      "images": [
+        "/image/woman5.webp",
+        "/image/woman5.webp"
+      ],
       "title": "Women's Denim Jacket",
       "description": "A stylish denim jacket for a casual look.",
-      "price": 59,
+      "actualPrice": 75,
+      "discountPrice": 59,
       "rating": 4.8,
       "color": "Blue",
       "type": "Jacket",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 12
     },
     {
       "id": 36,
-      "image": "/image/woman6.webp",
+      "images": [
+        "/image/woman6.webp",
+        "/image/woman6.webp"
+      ],
       "title": "Women's Leather Jacket",
       "description": "A chic leather jacket for a bold look.",
-      "price": 129,
+      "actualPrice": 150,
+      "discountPrice": 129,
       "rating": 4.9,
       "color": "Black",
       "type": "Jacket",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 8
     },
     {
       "id": 37,
-      "image": "/image/woman7.webp",
+      "images": [
+        "/image/woman7.webp",
+        "/image/woman7.webp"
+      ],
       "title": "Women's Hoodie",
       "description": "A cozy hoodie for a relaxed outfit.",
-      "price": 34,
+      "actualPrice": 45,
+      "discountPrice": 34,
       "rating": 4.7,
       "color": "Gray",
       "type": "Sweatshirt",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 18
     },
     {
       "id": 38,
-      "image": "/image/woman8.webp",
+      "images": [
+        "/image/woman8.webp",
+        "/image/woman8.webp"
+      ],
       "title": "Women's Sweater",
       "description": "A warm and stylish sweater for cold weather.",
-      "price": 29,
+      "actualPrice": 35,
+      "discountPrice": 29,
       "rating": 4.6,
       "color": "Green",
       "type": "Sweater",
       "brand": "Departwest",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 22
     },
     {
       "id": 39,
-      "image": "/image/woman9.webp",
+      "images": [
+        "/image/woman9.webp",
+        "/image/woman9.webp"
+      ],
       "title": "Women's Cargo Pants",
       "description": "Functional cargo pants for an adventurous look.",
-      "price": 39,
+      "actualPrice": 50,
+      "discountPrice": 39,
       "rating": 4.4,
       "color": "Khaki",
       "type": "Pants",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 17
     },
     {
       "id": 40,
-      "image": "/image/woman10.webp",
+      "images": [
+        "/image/woman10.webp",
+        "/image/woman10.webp"
+      ],
       "title": "Women's Chinos",
       "description": "Stylish chinos for a smart casual look.",
-      "price": 34,
+      "actualPrice": 45,
+      "discountPrice": 34,
       "rating": 4.5,
       "color": "Navy",
       "type": "Pants",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 15
     },
     {
       "id": 41,
-      "image": "/image/woman11.webp",
+      "images": [
+        "/image/woman11.webp",
+        "/image/woman11.webp"
+      ],
       "title": "Women's Joggers",
       "description": "Comfortable joggers for a sporty look.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.3,
       "color": "Black",
       "type": "Pants",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 20
     },
     {
       "id": 42,
-      "image": "/image/woman12.webp",
+      "images": [
+        "/image/woman12.webp",
+        "/image/woman12.webp"
+      ],
       "title": "Women's Jeans",
       "description": "Classic denim jeans for everyday wear.",
-      "price": 44,
+      "actualPrice": 55,
+      "discountPrice": 44,
       "rating": 4.8,
       "color": "Blue",
       "type": "Pants",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 12
     },
     {
       "id": 43,
-      "image": "/image/woman13.webp",
+      "images": [
+        "/image/woman13.webp",
+        "/image/woman13.webp"
+      ],
       "title": "Women's Shorts",
       "description": "Casual shorts for a comfortable summer outfit.",
-      "price": 19,
+      "actualPrice": 25,
+      "discountPrice": 19,
       "rating": 4.4,
       "color": "Gray",
       "type": "Shorts",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 30
     },
     {
       "id": 44,
-      "image": "/image/woman14.webp",
+      "images": [
+        "/image/woman14.webp",
+        "/image/woman14.webp"
+      ],
       "title": "Women's Swimwear",
       "description": "Stylish swimwear for beach and pool.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.7,
       "color": "Blue",
       "type": "Swimwear",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 18
     },
     {
       "id": 45,
-      "image": "/image/woman15.webp",
+      "images": [
+        "/image/woman15.webp",
+        "/image/woman15.webp"
+      ],
       "title": "Women's Blazer",
       "description": "A sharp blazer for formal occasions.",
-      "price": 89,
+      "actualPrice": 110,
+      "discountPrice": 89,
       "rating": 4.9,
       "color": "Black",
       "type": "Blazer",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 10
     },
     {
       "id": 46,
-      "image": "/image/woman16.webp",
+      "images": [
+        "/image/woman16.webp",
+        "/image/woman16.webp"
+      ],
       "title": "Women's Suit",
       "description": "A complete suit set for a professional look.",
-      "price": 179,
+      "actualPrice": 200,
+      "discountPrice": 179,
       "rating": 4.8,
       "color": "Navy",
       "type": "Suit",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 10
     },
     {
       "id": 47,
-      "image": "/image/woman17.webp",
+      "images": [
+        "/image/woman17.webp",
+        "/image/woman17.webp"
+      ],
       "title": "Women's V-Neck Top",
       "description": "A stylish V-neck top for a casual look.",
-      "price": 12,
+      "actualPrice": 15,
+      "discountPrice": 12,
       "rating": 4.3,
       "color": "White",
       "type": "Top",
       "brand": "Affliction",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 25
     },
     {
       "id": 48,
-      "image": "/image/woman18.webp",
+      "images": [
+        "/image/woman18.webp",
+        "/image/woman18.webp"
+      ],
       "title": "Women's Henley Shirt",
       "description": "A versatile Henley shirt for a casual look.",
-      "price": 19,
+      "actualPrice": 25,
+      "discountPrice": 19,
       "rating": 4.4,
       "color": "Gray",
       "type": "Shirt",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 20
     },
     {
       "id": 49,
-      "image": "/image/woman19.webp",
+      "images": [
+        "/image/woman19.webp",
+        "/image/woman19.webp"
+      ],
       "title": "Women's Lace Top",
       "description": "A chic lace top for a stylish look.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.5,
       "color": "Blue",
       "type": "Top",
       "brand": "Affliction",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 18
     },
     {
       "id": 50,
-      "image": "/image/woman20.webp",
+      "images": [
+        "/image/woman20.webp",
+        "/image/woman20.webp"
+      ],
       "title": "Women's Flannel Shirt",
       "description": "A warm flannel shirt for cooler weather.",
-      "price": 29,
+      "actualPrice": 40,
+      "discountPrice": 29,
       "rating": 4.7,
       "color": "Red",
       "type": "Shirt",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 12
     },
     {
       "id": 51,
-      "image": "/image/woman21.webp",
+      "images": [
+        "/image/woman21.webp",
+        "/image/woman21.webp"
+      ],
       "title": "Women's Bomber Jacket",
       "description": "A stylish bomber jacket for a cool look.",
-      "price": 69,
+      "actualPrice": 80,
+      "discountPrice": 69,
       "rating": 4.6,
       "color": "Green",
       "type": "Jacket",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 10
     },
     {
       "id": 52,
-      "image": "/image/woman22.webp",
+      "images": [
+        "/image/woman22.webp",
+        "/image/woman22.webp"
+      ],
       "title": "Women's Windbreaker",
       "description": "A lightweight windbreaker for outdoor activities.",
-      "price": 39,
+      "actualPrice": 50,
+      "discountPrice": 39,
       "rating": 4.4,
       "color": "Yellow",
       "type": "Jacket",
       "brand": "Roar",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 15
     },
     {
       "id": 53,
-      "image": "/image/woman23.webp",
+      "images": [
+        "/image/woman23.webp",
+        "/image/woman23.webp"
+      ],
       "title": "Women's Vest",
       "description": "A versatile vest for layering.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.5,
       "color": "Black",
       "type": "Vest",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 25
     },
     {
       "id": 54,
-      "image": "/image/woman24.webp",
+      "images": [
+        "/image/woman24.webp",
+        "/image/woman24.webp"
+      ],
       "title": "Women's Cardigan",
       "description": "A cozy cardigan for a stylish look.",
-      "price": 34,
+      "actualPrice": 45,
+      "discountPrice": 34,
       "rating": 4.7,
       "color": "Brown",
       "type": "Sweater",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 14
     },
     {
       "id": 55,
-      "image": "/image/woman25.webp",
+      "images": [
+        "/image/woman25.webp",
+        "/image/woman25.webp"
+      ],
       "title": "Women's Trench Coat",
       "description": "A classic trench coat for a sophisticated look.",
-      "price": 119,
+      "actualPrice": 140,
+      "discountPrice": 119,
       "rating": 4.8,
       "color": "Beige",
       "type": "Coat",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 8
     },
     {
       "id": 56,
-      "image": "/image/woman26.webp",
+      "images": [
+        "/image/woman26.webp",
+        "/image/woman26.webp"
+      ],
       "title": "Women's Peacoat",
       "description": "A warm and stylish peacoat for winter wear.",
-      "price": 109,
+      "actualPrice": 130,
+      "discountPrice": 109,
       "rating": 4.9,
       "color": "Navy",
       "type": "Coat",
       "brand": "Buckle Black",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 9
     },
     {
       "id": 57,
-      "image": "/image/woman27.webp",
+      "images": [
+        "/image/woman27.webp",
+        "/image/woman27.webp"
+      ],
       "title": "Women's Overcoat",
       "description": "A long overcoat for a sophisticated look.",
-      "price": 139,
+      "actualPrice": 160,
+      "discountPrice": 139,
       "rating": 4.8,
       "color": "Gray",
       "type": "Coat",
       "brand": "BKE",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 6
     },
     {
       "id": 58,
-      "image": "/image/woman28.webp",
+      "images": [
+        "/image/woman28.webp",
+        "/image/woman28.webp"
+      ],
       "title": "Women's Tracksuit",
       "description": "A complete tracksuit for a sporty outfit.",
-      "price": 49,
+      "actualPrice": 60,
+      "discountPrice": 49,
       "rating": 4.5,
       "color": "Black",
       "type": "Tracksuit",
       "brand": "Reclaim",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 20
     },
     {
       "id": 59,
-      "image": "/image/woman29.webp",
+      "images": [
+        "/image/woman29.webp",
+        "/image/woman29.webp"
+      ],
       "title": "Women's Hoodie and Sweatpants Set",
       "description": "A matching hoodie and sweatpants set for a cozy look.",
-      "price": 44,
+      "actualPrice": 55,
+      "discountPrice": 44,
       "rating": 4.6,
       "color": "Gray",
       "type": "Sweatshirt",
       "brand": "Daytrip",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 16
     },
     {
       "id": 60,
-      "image": "/image/woman30.webp",
+      "images": [
+        "/image/woman30.webp",
+        "/image/woman30.webp"
+      ],
       "title": "Women's Board Shorts",
       "description": "Comfortable board shorts for beach and surf wear.",
-      "price": 24,
+      "actualPrice": 30,
+      "discountPrice": 24,
       "rating": 4.7,
       "color": "Blue",
       "type": "Shorts",
       "brand": "Hurley",
       "quantity": 1,
-      "size": ["Small", "Medium", "Large"],
-      "category": "Women's Clothing"
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Women's Clothing",
+      "stock": 22
     }
   ],
   "categories": [
@@ -847,6 +1389,77 @@
     {
       "id": 1,
       "name": "Women's Clothing"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "images": [
+        "/image/man1.webp",
+        "/image/man1.webp"
+      ],
+      "title": "Men's Casual Shirt",
+      "description": "A comfortable and stylish casual shirt for everyday wear.",
+      "actualPrice": 200,
+      "discountPrice": 29,
+      "rating": 4.5,
+      "color": "Blue",
+      "type": "Shirt",
+      "brand": "Buckle Black",
+      "quantity": 5,
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "images": [
+        "/image/man2.webp",
+        "/image/man2.webp"
+      ],
+      "title": "Men's Formal Shirt",
+      "description": "A sleek and elegant formal shirt for office wear.",
+      "actualPrice": 120,
+      "discountPrice": 49,
+      "rating": 4.7,
+      "color": "White",
+      "type": "Shirt",
+      "brand": "BKE",
+      "quantity": 2,
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 18
+    },
+    {
+      "id": 3,
+      "images": [
+        "/image/man3.webp",
+        "/image/man3.webp"
+      ],
+      "title": "Men's Polo T-Shirt",
+      "description": "A classic polo T-shirt for a smart casual look.",
+      "actualPrice": 30,
+      "discountPrice": 24,
+      "rating": 4.3,
+      "color": "Red",
+      "type": "T-Shirt",
+      "brand": "Reclaim",
+      "quantity": 1,
+      "size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "category": "Men's Clothing",
+      "stock": 35
     }
   ]
 }

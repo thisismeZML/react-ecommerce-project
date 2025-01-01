@@ -1,11 +1,15 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import CartModal from "./CartModal";
+import useSWR from "swr";
 
 const NavIcons = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
-
   const [isCartOpen, setisCartOpen] = useState(false);
+
+  const fetcher = (url) => fetch(url).then((res) => res.json());
+
+  const {data: carts} = useSWR(`${import.meta.env.VITE_API_URL}/carts`, fetcher)
 
   const navigate = useNavigate();
 
@@ -54,7 +58,9 @@ const NavIcons = () => {
           onClick={() => setisCartOpen((prev) => !prev)}
         />
         <div className="absolute bg-primary text-white text-xs w-4 h-4 rounded-full flex items-center justify-center -top-3 -right-2">
-          1
+          {
+            carts ?  carts.length : 0
+          }
         </div>
       </div>
       {isCartOpen && <CartModal />}

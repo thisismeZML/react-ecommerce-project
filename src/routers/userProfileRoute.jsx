@@ -1,9 +1,11 @@
 import React from 'react'
+import ProfilePage from '../features/public/pages/ProfilePage'
 
-const UserProfileRoute = () => {
-  return (
-    <div>UserProfileRoute</div>
-  )
-}
+const UserProfileRoute = [
+  {
+    path: "profile",
+    element: <ProfilePage/>
+  }
+]
 
 export default UserProfileRoute

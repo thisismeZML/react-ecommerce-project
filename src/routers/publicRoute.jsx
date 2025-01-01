@@ -6,8 +6,8 @@ import AboutUsPage from "../features/public/pages/AboutUsPage";
 import ContactUsPage from "../features/public/pages/ContactUsPage";
 import DetailPage from "../features/public/pages/DetailPage";
 import CartPage from "../features/public/pages/CartPage";
-import LoginPage from "../features/auth/pages/LoginPage";
-import RegisterPage from "../features/auth/pages/RegisterPage";
+import UserProfileRoute from "./userProfileRoute";
+import authRoute from "./authRoute";
 
 const publicRoute = [
   {
@@ -38,14 +38,8 @@ const publicRoute = [
         path: "cart",
         element: <CartPage />,
       },
-      {
-        path: "login",
-        element: <LoginPage />,
-      },
-      {
-        path: "register",
-        element: <RegisterPage />,
-      },
+      ...authRoute,
+      ...UserProfileRoute
     ],
   },
 ];

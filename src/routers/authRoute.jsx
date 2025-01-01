@@ -5,18 +5,12 @@ import RegisterPage from "../features/auth/pages/RegisterPage";
 
 const authRoute = [
   {
-    path: "/",
-    element: <AuthLayout />,
-    children: [
-      {
-        path: "login",
-        element: <LoginPage />,
-      },
-      {
-        path: "register",
-        element: <RegisterPage />,
-      },
-    ],
+    path: "login",
+    element: <LoginPage />,
+  },
+  {
+    path: "register",
+    element: <RegisterPage />,
   },
 ];
 
