@@ -1391,75 +1391,107 @@
       "name": "Women's Clothing"
     }
   ],
-  "carts": [
+  "carts": [],
+  "vouchers": [
     {
-      "id": 2,
-      "images": [
-        "/image/man2.webp",
-        "/image/man2.webp"
+      "voucherCode": "6lh79ccx91c",
+      "discount": 0.1,
+      "expiryDate": "2025-01-06T04:26:06.496Z",
+      "items": [
+        {
+          "id": 3,
+          "images": [
+            "/image/man3.webp",
+            "/image/man3.webp"
+          ],
+          "title": "Men's Polo T-Shirt",
+          "description": "A classic polo T-shirt for a smart casual look.",
+          "actualPrice": 60,
+          "discountPrice": 24,
+          "rating": 4.3,
+          "color": "Red",
+          "type": "T-Shirt",
+          "brand": "Reclaim",
+          "quantity": 2,
+          "size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "category": "Men's Clothing",
+          "stock": 35
+        },
+        {
+          "id": 1,
+          "images": [
+            "/image/man1.webp",
+            "/image/man1.webp"
+          ],
+          "title": "Men's Casual Shirt",
+          "description": "A comfortable and stylish casual shirt for everyday wear.",
+          "actualPrice": 40,
+          "discountPrice": 29,
+          "rating": 4.5,
+          "color": "Blue",
+          "type": "Shirt",
+          "brand": "Buckle Black",
+          "quantity": 1,
+          "size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "category": "Men's Clothing",
+          "stock": 25
+        },
+        {
+          "id": 2,
+          "images": [
+            "/image/man2.webp",
+            "/image/man2.webp"
+          ],
+          "title": "Men's Formal Shirt",
+          "description": "A sleek and elegant formal shirt for office wear.",
+          "actualPrice": 60,
+          "discountPrice": 49,
+          "rating": 4.7,
+          "color": "White",
+          "type": "Shirt",
+          "brand": "BKE",
+          "quantity": 1,
+          "size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "category": "Men's Clothing",
+          "stock": 18
+        },
+        {
+          "id": 4,
+          "images": [
+            "/image/man4.webp",
+            "/image/man4.webp"
+          ],
+          "title": "Men's Graphic T-Shirt",
+          "description": "A trendy graphic T-shirt with a cool design.",
+          "actualPrice": 25,
+          "discountPrice": 19,
+          "rating": 4.6,
+          "color": "Black",
+          "type": "T-Shirt",
+          "brand": "Buck Wear",
+          "quantity": 1,
+          "size": [
+            "Small",
+            "Medium",
+            "Large"
+          ],
+          "category": "Men's Clothing",
+          "stock": 40
+        }
       ],
-      "title": "Men's Formal Shirt",
-      "description": "A sleek and elegant formal shirt for office wear.",
-      "actualPrice": 120,
-      "discountPrice": 49,
-      "rating": 4.7,
-      "color": "White",
-      "type": "Shirt",
-      "brand": "BKE",
-      "quantity": 2,
-      "size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
-      "category": "Men's Clothing",
-      "stock": 18
-    },
-    {
-      "id": 3,
-      "images": [
-        "/image/man3.webp",
-        "/image/man3.webp"
-      ],
-      "title": "Men's Polo T-Shirt",
-      "description": "A classic polo T-shirt for a smart casual look.",
-      "actualPrice": 30,
-      "discountPrice": 24,
-      "rating": 4.3,
-      "color": "Red",
-      "type": "T-Shirt",
-      "brand": "Reclaim",
-      "quantity": 1,
-      "size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
-      "category": "Men's Clothing",
-      "stock": 35
-    },
-    {
-      "id": 32,
-      "images": [
-        "/image/woman2.webp",
-        "/image/woman2.webp"
-      ],
-      "title": "Women's Formal Blouse",
-      "description": "An elegant blouse for office wear.",
-      "actualPrice": 50,
-      "discountPrice": 39,
-      "rating": 4.7,
-      "color": "White",
-      "type": "Blouse",
-      "brand": "BKE",
-      "quantity": 1,
-      "size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
-      "category": "Women's Clothing",
-      "stock": 15
+      "id": 1
     }
   ]
 }

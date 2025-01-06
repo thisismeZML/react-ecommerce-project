@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from "react";
+import toast from "react-hot-toast";
 import useSWR, { mutate } from "swr";
+import { lineSpinner } from "ldrs";
+
+lineSpinner.register();
 
 const CartPage = () => {
   const fetcher = (url) => fetch(url).then((res) => res.json());
+  const [isCheckout, setIsCheckout] = useState(false);
   const { data: cart, error } = useSWR(
     `${import.meta.env.VITE_API_URL}/carts`,
     fetcher
@@ -67,6 +72,57 @@ const CartPage = () => {
   const subtotal = cartItems.reduce((sum, item) => sum + item.actualPrice, 0);
   const tax = subtotal * taxRate;
   const total = subtotal + tax + shippingCost;
+
+  const clearCart = async () => {
+    const cartItemsResponse = await fetch(
+      `${import.meta.env.VITE_API_URL}/carts`
+    );
+    const cartItems = await cartItemsResponse.json();
+
+    const deletePromises = cartItems.map((item) =>
+      fetch(`${import.meta.env.VITE_API_URL}/carts/${item.id}`, {
+        method: "DELETE",
+      })
+    );
+
+    await Promise.all(deletePromises);
+    setCartItems([]);
+    mutate(`${import.meta.env.VITE_API_URL}/carts`);
+  };
+  const handleCheckout = async () => {
+    setIsCheckout(true);
+    const voucherCode = Math.random().toString(36).slice(2);
+
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/vouchers`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        voucherCode,
+        discount: 0.1,
+        expiryDate: new Date().toISOString(),
+        items: cartItems,
+      }),
+    });
+
+    if (res.ok) {
+      await clearCart();
+      toast.success("Checkout successful!");
+      setIsCheckout(false);
+    } else {
+      toast.error("Checkout failed.");
+      setIsCheckout(false);
+    }
+  };
+
+  if (cartItems.length > 0) {
+    cartItems.forEach((item) => {
+      if (item.quantity === 0) {
+        removeItem(item.id);
+      }
+    });
+  }
 
   if (error) return <div>Error loading cart</div>;
   if (!cartItems) return <div>Loading...</div>;
@@ -147,9 +203,21 @@ const CartPage = () => {
             <div className="flex justify-end">
               <button
                 className=" bg-primary text-white py-2 px-4 mt-6 rounded-md hover:bg-pink-600 transition"
-                onClick={() => alert("Proceed to Checkout")}
+                onClick={handleCheckout}
               >
-                Checkout
+                {isCheckout ? (
+                  <div className="flex items-center justify-center">
+                    <l-line-spinner
+                      size="20"
+                      stroke="3"
+                      speed="1"
+                      color="white"
+                    ></l-line-spinner>
+                    <span className="ml-2">Checkout...</span>
+                  </div>
+                ) : (
+                  <span>Checkout</span>
+                )}
               </button>
             </div>
           </div>
